@@ -1,9 +1,6 @@
 import CardWrapper, { Activity, Ratings } from './ui/cards';
-import { boardGames } from './lib/placeholder-data';
 
 export default async function Page() {
-  const board_games = boardGames;
-
   return (
     <main>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
